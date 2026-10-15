@@ -9,14 +9,7 @@
             <th>Email</th>
         </tr>
     </thead>
-    <tbody>
-        @foreach (var developer in Model)
-        {
-            <tr>
-                <td>@developer.Name</td>
-                <td>@developer.Email</td>
-            </tr>
-        }
+    <tbody>   
         @for (var i=0; i< Model.Count; i++)
         {
             var developer = Model[i];
@@ -26,8 +19,15 @@
             <tr  style = "@style">
                 <td>@developer.Name</td>
                 <td>@developer.Email</td>
+                <td>
+                    <a href="https://localhost:5001/Developers/Details/@developer.Id">Details</a>
+                </td>
             </tr>
         }
+
+    
+
+        
         
     </tbody>
 </table>
