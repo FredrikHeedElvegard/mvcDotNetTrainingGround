@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mvcDotNetTrainingGround")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae0ebd9ea83d167847defccf4b7780db3e27a354")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e2e92ef7998a9230e66fa9ad9bf5dd518535f8d")]
 [assembly: System.Reflection.AssemblyProductAttribute("mvcDotNetTrainingGround")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mvcDotNetTrainingGround")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
