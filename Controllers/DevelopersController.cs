@@ -17,10 +17,15 @@ public class DevelopersController : Controller
     {
         return View(_db.Developers);
     }
-    
+
     public IActionResult Details(int id)
     {
-        return View(_db.Developers[id-1]);
+        return View(_db.Developers[id - 1]);
+    }
+    
+    public IActionResult Create()
+    {
+        return View();
     }
 }
 

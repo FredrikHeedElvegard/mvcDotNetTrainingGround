@@ -20,12 +20,16 @@
                 <td>@developer.Name</td>
                 <td>@developer.Email</td>
                 <td>
-                    <a href="https://localhost:5001/Developers/Details/@developer.Id">Details</a>
+                    <a asp-controller="Developers" asp-action="Details" asp-route-id="@developer.Id"">Details</a>
                 </td>
             </tr>
         }
+        <tr>
+            <td>
+                <a asp-controller="Developers" asp-action="Create">Create Developer</a>
+            </td>
+        </tr>
 
-    
 
         
         
