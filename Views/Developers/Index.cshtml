@@ -17,5 +17,17 @@
                 <td>@developer.Email</td>
             </tr>
         }
+        @for (var i=0; i< Model.Count; i++)
+        {
+            var developer = Model[i];
+            var style = "";
+            if (i % 2 == 0)
+                style = "background-color: lightgrey;";
+            <tr  style = "@style">
+                <td>@developer.Name</td>
+                <td>@developer.Email</td>
+            </tr>
+        }
+        
     </tbody>
 </table>
